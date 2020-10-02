@@ -15,7 +15,7 @@ namespace Sol_Demo.Pages.Demo
 
         #region Private Event Handler
 
-        public void OnCancelModel()
+        private void OnCancelModel()
         {
             IsDisplay = false;
             base.StateHasChanged();

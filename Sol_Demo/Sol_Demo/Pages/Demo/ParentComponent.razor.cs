@@ -7,19 +7,19 @@ namespace Sol_Demo.Pages.Demo
 {
     public partial class ParentComponent
     {
-        #region Private Method
+        #region Private Property
 
         private ChildComponent Child { get; set; }
 
-        #endregion Private Method
+        #endregion Private Property
 
-        #region Event Handler
+        #region Public Event Handler
 
         public void OnShowModelClick()
         {
             Child.ShowModel();
         }
 
-        #endregion Event Handler
+        #endregion Public Event Handler
     }
 }
